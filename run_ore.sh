@@ -9,7 +9,7 @@ if [ "$1" == "devnet" ]; then
     CLAIM_LOG_FILE="ore_devnet_claim.log"
 elif [ "$1" == "mainnet" ]; then
     ORE_EXEC="./ore_mainnet"
-    RPC_URL="https://izabel-fpxx4p-fast-mainnet.helius-rpc.com"
+    RPC_URL="https://patient-yolo-resonance.solana-mainnet.quiknode.pro/654f30fd800df5919e0fe662a1ba5d4109e238a9/"
     LOG_FILE="ore_mainnet.log"
     CLAIM_LOG_FILE="ore_mainnet_claim.log"
 else
